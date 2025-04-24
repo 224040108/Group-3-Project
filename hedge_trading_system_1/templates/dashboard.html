@@ -1,0 +1,48 @@
+<!-- 在回测结果部分，确保使用正确的ID -->
+
+<div id="backtest-results" class="card mt-4" style="display: none;">
+    <div class="card-header">
+        <h5>回测结果</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>总收益率</td>
+                            <td id="total-return">-</td>
+                        </tr>
+                        <tr>
+                            <td>年化收益率</td>
+                            <td id="annual-return">-</td>
+                        </tr>
+                        <tr>
+                            <td>夏普比率</td>
+                            <td id="sharpe-ratio">-</td>
+                        </tr>
+                        <tr>
+                            <td>最大回撤</td>
+                            <td id="max-drawdown">-</td>
+                        </tr>
+                        <tr>
+                            <td>胜率</td>
+                            <td id="win-rate">-</td>
+                        </tr>
+                        <tr>
+                            <td>盈亏比</td>
+                            <td id="profit-loss-ratio">-</td>
+                        </tr>
+                        <tr>
+                            <td>总交易次数</td>
+                            <td id="total-trades">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <img id="backtest-chart" src="" alt="回测图表" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
